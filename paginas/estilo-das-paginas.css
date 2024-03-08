@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    height: 200px;
+}
+header > h1 { 
+    padding: 10px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+
+#burguer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+menu {
+    display: none;
+}
+menu > ul {
+    list-style-type: none;
+}
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.video {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video > video {
+    width: 90vw;
+    padding: 10px;
+    padding-top: 50px;
+}
+main > h2 {
+    text-align: center;
+}
+main > p {
+    text-indent: 30px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    line-height: 2em;
+    text-align: justify;
+}
+main > img {
+    width: 100vw;
+}
+footer {
+    padding: 10px;
+}
+footer > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+}
