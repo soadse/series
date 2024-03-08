@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* ESTILO MEDIA QUERIES */
+
+/* Typical Device Breakpoints
+Mobile devices – 320px — 480px.
+iPads, Tablets – 481px — 768px.
+Small screens, laptops(notebook) – 769px — 1024px.
+Desktops(computador, large screens – 1025px — 1366px.
+Extra large screens, TV – 1367px, and more
+*/
+
+
+@media screen and (min-width:769px) {
+    header {
+        width: 100vw;
+    }
+    main {
+        width: 768px;
+        margin: auto;
+    }
+    #nb:hover {
+        background-position: center center;
+    }
+    #got:hover {
+        background-position:top;
+    }
+    #bg:hover {
+        background-position: top center;
+    }
+    #an:hover {
+        background-position: top center;
+    }
+    
+}

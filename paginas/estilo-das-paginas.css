@@ -77,3 +77,54 @@ footer > a {
     text-decoration: none;
     font-weight: bolder;
 }
+
+
+
+@media screen and (min-width:769px) {
+    header {
+        width: 100vw;
+    }
+    main {
+        width: 768px;
+        margin: auto;
+    }
+    
+
+    .video {
+        max-width: 769px;
+    }
+    .video > video {
+        max-width: 700px;
+        
+    }
+
+    img {
+        max-width: 769px;
+    }
+
+
+    #orange {
+        background-image: url(../imagens/nb01.png);
+        background-size: contain;
+        background-position: center center;
+        background-color: #F16527;
+    }
+    #ofthrones {
+        background-image: url(../imagens/got01.png);
+        background-size: contain;
+        background-position: center center;
+        background-color: rgb(13, 13, 49);
+    }
+    #bridger {
+        background-image: url(../imagens/bg01.png);
+        background-size: contain;
+        background-position: center center;
+        background-color: #946B98;
+    }
+    #anne {
+        background-image: url(../imagens/an01.png);
+        background-size: contain;
+        background-position: center center;
+        background-color: #b7410e;
+    }
+}

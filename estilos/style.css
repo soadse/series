@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* ESTILO DA PAGINA PRINCIPAL */
 
 * {
@@ -7,26 +6,36 @@
     padding: 0px;
 }
 body {
-    background-image: url(../imagens/plano-de-fundo01.jpg);
+    background-image: url(../imagens/plano-de-fundo04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
 }
+
+
 header {
-    background-color: black;
-    height: 100px;
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 200px;
 }
 header > h1 {
     padding: 10px;
-    padding-top: 30px;
-    color: red;
+    padding-top: 90px;
+    color: rgb(197, 197, 197);
     text-align: center;
 }
+header > h1:hover {
+    text-shadow: 0px 0px 10px red;
+    transition: all .5s;
+}
+
+
 main {
     border-radius: 10px;
     margin: 10px;
     background-color: rgba(255, 255, 255, 0.356);
 }
-
 main > a {
     display: block;
     text-align: center;
@@ -41,6 +50,8 @@ main > a {
 main > a:hover {
     transition: .5s;
 }
+
+
 div{
     background-repeat: no-repeat;
     background-size: contain;
@@ -58,12 +69,12 @@ div{
     }
 }
 div:hover {
-    border-radius: 10px;
     transition: all .5s;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;   
 }
+
 
 #nb {
     background-image: url(../imagens/nb01.png);
@@ -75,6 +86,7 @@ div:hover {
     color: #F16527;
 }
 
+
 #got {
     background-image: url(../imagens/got01.png);
 }
@@ -84,6 +96,7 @@ div:hover {
 #txt-got:hover {
     color: rgb(78, 78, 78);
 }
+
 
 #bg {
     background-image: url(../imagens/bg01.png);
@@ -95,6 +108,7 @@ div:hover {
     color: pink;
 }
 
+
 #an {
     background-image: url(../imagens/an01.png);
 }
@@ -103,4 +117,24 @@ div:hover {
 }
 #txt-an:hover {
     color: #b7410e;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 10px;
+}
+footer > p {
+    color: rgb(197, 197, 197);
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+    text-shadow: 0px 0px 10px purple;
+    transition: all .5s;
 }
