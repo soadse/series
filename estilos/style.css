@@ -7,7 +7,7 @@
     padding: 0px;
 }
 body {
-    background-color: gray;
+    background-image: url(../imagens/plano-de-fundo01.jpg);
     width: 100vw;
     height: 100vh;
 }
@@ -22,8 +22,9 @@ header > h1 {
     text-align: center;
 }
 main {
+    border-radius: 10px;
     margin: 10px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.356);
 }
 
 main > a {
@@ -38,8 +39,6 @@ main > a {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
 }
 main > a:hover {
-    background-image: linear-gradient(to top, white, black, white);
-    color: white;
     transition: .5s;
 }
 div{
@@ -47,14 +46,11 @@ div{
     background-size: contain;
     background-position: center;
     height: 200px;
-    animation: tela forwards 1s;
+    animation: tela forwards .5s;
 }
 @keyframes tela {
     0% {
         opacity: 10%;
-    }
-    50% {
-        opacity: 50%;
     }
     100% {
         filter: drop-shadow(10px 10px 5px black);
@@ -62,6 +58,7 @@ div{
     }
 }
 div:hover {
+    border-radius: 10px;
     transition: all .5s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -70,10 +67,12 @@ div:hover {
 
 #nb {
     background-image: url(../imagens/nb01.png);
-    
 }
 #nb:hover {
     background-image: url(../imagens/nb02.jpg);
+}
+#txt-nb:hover {
+    color: #F16527;
 }
 
 #got {
@@ -81,7 +80,9 @@ div:hover {
 }
 #got:hover {
     background-image: url(../imagens/got03.jpg);
-    
+}
+#txt-got:hover {
+    color: rgb(78, 78, 78);
 }
 
 #bg {
@@ -90,10 +91,16 @@ div:hover {
 #bg:hover {
     background-image: url(../imagens/bg02.jpg);
 }
+#txt-bg:hover {
+    color: pink;
+}
 
 #an {
     background-image: url(../imagens/an01.png);
 }
 #an:hover {
     background-image: url(../imagens/an02.jpg);
+}
+#txt-an:hover {
+    color: #b7410e;
 }
