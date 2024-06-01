@@ -55,6 +55,7 @@ main > a {
 }
 main > a:hover {
     transition: .5s;
+    background-color: #232321;
 }
 main > a:not(:hover) {
     transition: all .5s
